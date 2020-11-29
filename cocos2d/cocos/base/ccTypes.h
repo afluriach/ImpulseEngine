@@ -631,6 +631,27 @@ public:
     Acceleration(): x(0), y(0), z(0), timestamp(0) {}
 };
 
+struct CC_DLL ResourceData
+{
+    int         type;
+    std::string file;
+    std::string plist;
+
+    ResourceData()
+    {
+        type = 0;
+        file = "";
+        plist = "";
+    }
+
+    ResourceData(int iType, std::string sFile, std::string sPlist)
+    {
+        type = iType;
+        file = sFile;
+        plist = sPlist;
+    }
+};
+
 extern const std::string CC_DLL STD_STRING_EMPTY;
 extern const ssize_t CC_DLL CC_INVALID_INDEX;
 
