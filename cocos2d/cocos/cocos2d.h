@@ -178,13 +178,6 @@ THE SOFTWARE.
 #include "renderer/ccGLStateCache.h"
 #include "renderer/ccShaders.h"
 
-// physics
-#include "physics/CCPhysicsBody.h"
-#include "physics/CCPhysicsContact.h"
-#include "physics/CCPhysicsJoint.h"
-#include "physics/CCPhysicsShape.h"
-#include "physics/CCPhysicsWorld.h"
-
 // platform
 #include "platform/CCCommon.h"
 #include "platform/CCDevice.h"
@@ -284,17 +277,6 @@ THE SOFTWARE.
 #include "3d/CCSprite3D.h"
 #include "3d/CCSprite3DMaterial.h"
 #include "3d/CCTerrain.h"
-
-// vr
-#include "vr/CCVRGenericRenderer.h"
-
-
-// Deprecated
-// All deprecated features are include inside deprecated/CCDeprecated.h.
-// It is recommended that you just include what is needed.
-// eg. #include "deprecated/CCString.h" if you only need cocos2d::__String.
-#include "deprecated/CCDeprecated.h"
-
 
 NS_CC_BEGIN
 
